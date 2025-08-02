@@ -1,0 +1,23 @@
+<div class="profile-container">
+  <header class="profile-header">
+    <h3 class="profile-title">
+      <strong>{{ currentUser.username }}</strong> Profile
+    </h3>
+  </header>
+
+  <div class="profile-info">
+    <p><strong>Token:</strong><br>
+      {{ currentUser.accessToken.substring(0, 20) }} ... 
+      {{ currentUser.accessToken.substr(currentUser.accessToken.length - 20) }}
+    </p>
+    <p><strong>Id:</strong> {{ currentUser.id }}</p>
+    <p><strong>Email:</strong> {{ currentUser.email }}</p>
+  </div>
+
+  <div class="profile-roles">
+    <strong>Roles:</strong>
+    <ul>
+      <li *ngFor="let role of currentUser.roles">{{ role }}</li>
+    </ul>
+  </div>
+</div>

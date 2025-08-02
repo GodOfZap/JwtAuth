@@ -1,0 +1,23 @@
+.admin-container {
+  max-width: 640px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fffdf6;
+  border-left: 8px solid #e67e22;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.admin-header {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f39c12;
+}
+
+.admin-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #d35400;
+  margin: 0;
+}

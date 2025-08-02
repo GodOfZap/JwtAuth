@@ -1,0 +1,41 @@
+<div id="app">
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <link rel="stylesheet" href="app.component.css"> 
+    <a href="#" class="navbar-brand">MEAN Auth</a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a routerLink="home" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item" *ngIf="showAdminBoard">
+        <a routerLink="admin" class="nav-link">Admin Board</a>
+      </li>
+      <li class="nav-item" *ngIf="showModeratorBoard">
+        <a routerLink="mod" class="nav-link">Moderator Board</a>
+      </li>
+      <li class="nav-item" *ngIf="isLoggedIn">
+        <a routerLink="user" class="nav-link">User Board</a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto" *ngIf="!isLoggedIn">
+      <li class="nav-item">
+        <a routerLink="register" class="nav-link">Sign Up</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="login" class="nav-link">Login</a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto" *ngIf="isLoggedIn">
+      <li class="nav-item">
+        <a routerLink="profile" class="nav-link">{{ username }}</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link" (click)="logout()">LogOut</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container mt-3">
+    <router-outlet></router-outlet>
+  </div>
+</div>

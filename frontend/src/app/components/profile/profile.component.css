@@ -1,0 +1,48 @@
+.profile-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.profile-title {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.profile-info p {
+  margin: 0.8rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.profile-info strong {
+  color: #34495e;
+}
+
+.profile-roles {
+  margin-top: 1.5rem;
+}
+
+.profile-roles ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.profile-roles li {
+  background: #ecf0f1;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+}

@@ -1,0 +1,49 @@
+/* Overall app container */
+#app {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Navbar customization */
+.navbar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+/* Navigation links */
+.nav-link {
+  color: #dddddd;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Active link styling */
+.nav-link.active {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Container styling */
+.container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive spacing and alignment fixes */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}

@@ -1,0 +1,22 @@
+.moderator-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.moderator-header {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ddd;
+}
+
+.moderator-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #34495e;
+  margin: 0;
+}

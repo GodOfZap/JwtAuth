@@ -1,0 +1,36 @@
+/* Container tweaks */
+.home-container {
+  margin-top: 50px;
+}
+
+/* Jumbotron styling */
+.jumbotron {
+  background-color: #e9ecef;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Headline styling */
+.jumbotron h1 {
+  font-weight: 600;
+  color: #343a40;
+}
+
+/* Lead paragraph */
+.jumbotron .lead {
+  font-size: 1.3rem;
+  color: #495057;
+}
+
+/* Call-to-action button */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
